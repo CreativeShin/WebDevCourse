@@ -1,0 +1,10 @@
+<% include partials/header %>
+
+<h1>Welcome to the Dog.ejs</h1>
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+    <p>Good Choice! Rusty is the best!</p>
+<% }else{ %>
+    <p>Bad choice! You should have picked rusty.</p>
+<% } %>
+
+<% include partials/footer %>

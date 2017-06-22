@@ -1,0 +1,11 @@
+<h1>Contacts</h1>
+
+<%contacts.forEach(function(contact){ %>
+    <li><%= contact %></li>
+<%});%>
+
+<h2>Details</h2>
+<form  action="/contactinfo" method="POST">
+    <input type="text" placeholder="name" name="contactname">
+    <button>Submit</button>
+</form>
